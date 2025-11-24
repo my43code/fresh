@@ -273,8 +273,8 @@
              {
                 type: 'image',
                 src: 'images/facilities (2).jpg',
-                title: 'School Area',
-                description: 'Standards Buildings for Student.'
+                title: 'New Facilities',
+                description: 'Getting Prepared to Welcome New Students.'
             }
         ];
 
