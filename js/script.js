@@ -270,12 +270,11 @@
                 description: 'Standards Buildings for Student.'
             },
            
-            {
-                type: 'video',
-                src: 'videos/bejhistory.mp4',
-                embed: false,
-                title: 'The Expansion of School Over the Years',
-                description: 'The Director of the Waigani Christain College, MP for North Wagi, Hon.Benjmain Mul,visiting the school and giving a brief history of the school and its expansion over the years.'
+             {
+                type: 'image',
+                src: 'images/facilities (2).jpg',
+                title: 'School Area',
+                description: 'Standards Buildings for Student.'
             }
         ];
 
