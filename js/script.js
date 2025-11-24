@@ -274,7 +274,7 @@
                 type: 'image',
                 src: 'images/facilities (2).jpg',
                 title: 'New Facilities',
-                description: 'Getting Prepared to Welcome New Students.'
+                description: 'Getting Prepared to Welcome New Students, 2026.'
             }
         ];
 
