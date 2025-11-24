@@ -1,7 +1,7 @@
 
 /* ================================
    MAIN WRAPPER
-================================ */
+================================ *
 .home-main {
     width: 100%;
     max-width: 1200px;
@@ -13,9 +13,9 @@
 
 /* ================================
    TOP YELLOW STRIP
-================================ */
+================================ *
 .top-strip {
-    background: #f4c430; /* Yellow */
+    background: #f4c430; /* Yellow *
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -51,16 +51,16 @@
 
 /* ================================
    ADMISSION RED BLOCK
-================================ */
+================================ *
 .admission-wrapper {
     display: flex;
     margin-top: 20px;
 }
 
-/* LEFT RED YEAR BOX */
+/* LEFT RED YEAR BOX *
 .admission-left {
     width: 28%;
-    background: #b30000; /* Deep red */
+    background: #b30000; /* Deep red *
     color: white;
     padding: 25px;
     text-align: center;
@@ -77,7 +77,7 @@
     line-height: 1.1;
 }
 
-/* RIGHT SECTION */
+/* RIGHT SECTION *
 .admission-right {
     width: 72%;
     padding: 15px 25px;
@@ -107,14 +107,14 @@
 
 /* ================================
    BODY SECTION (Text + Programs)
-================================ */
+================================ *
 .body-section {
     display: flex;
     margin-top: 25px;
     gap: 20px;
 }
 
-/* LEFT TEXT */
+/* LEFT TEXT *
 .body-text {
     width: 65%;
     font-size: 16px;
@@ -127,7 +127,7 @@
     margin-bottom: 8px;
 }
 
-/* RIGHT PROGRAM LIST */
+/* RIGHT PROGRAM LIST *
 .programs {
     width: 35%;
     background: linear-gradient(135deg, #fff7ef, #ffe4d1);
@@ -206,7 +206,7 @@
 
 /* ================================
    BOTTOM ROW (QR + Closing Date)
-================================ */
+================================ *
 
 .bottom-row {
     display: flex;
@@ -216,7 +216,7 @@
     gap: 30px;
 }
 
-/* QR Code Box */
+/* QR Code Box *
 .qr-code {
     text-align: left;
     margin: 0;
@@ -235,7 +235,7 @@
     font-weight: bold;
 }
 
-/* Closing Date Box */
+/* Closing Date Box *
 .closing-info {
     background: #eee;
     padding: 20px;
@@ -247,7 +247,7 @@
 
 /* ================================
    CONTACT BAR (YELLOW)
-================================ */
+================================ *
 .contact-bar {
     background: #f4c430;
     padding: 12px;
@@ -264,7 +264,7 @@
 
 /* ================================
    MOBILE RESPONSIVE
-================================ */
+================================ *
 @media(max-width: 768px) {
 
     .top-strip {
@@ -306,4 +306,4 @@
         text-align: left;
     }
 }
-
+*/
