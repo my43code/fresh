@@ -462,6 +462,7 @@ main {
     position: relative;
     display: grid;
     gap: 0.75rem;
+    overflow: auto;
 }
 
 .hero-media-card {
