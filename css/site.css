@@ -538,6 +538,7 @@ input[type="submit"],
 
 .mosaic-section {
     padding: 2rem;
+    overflow: auto;
 }
 
 .mosaic-grid {
