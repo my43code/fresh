@@ -31,7 +31,7 @@ p,
 li,
 th,
 td {
-    text-align: justify;
+    text-align: left;
 }
 
 .sr-only {
@@ -1284,6 +1284,7 @@ textarea {
 
 .qr-highlight .qr-text strong {
     color: var(--primary);
+    text-align: left;
 }
 
 .alert {
