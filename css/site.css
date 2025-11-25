@@ -1467,9 +1467,7 @@ textarea {
     background: radial-gradient(circle at top, rgba(242,169,0,0.2), transparent 60%), var(--light);
 }
 
-.spotlight p{
-    text-align: left;
-}
+
 
 .filter-tabs {
     display: flex;
