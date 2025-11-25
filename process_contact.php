@@ -1,7 +1,7 @@
 <?php
 $admin_email = "masomanu23@gmail.com";
 
-$conn = new mysqli("localhost", "root", "", "wcc_site");
+$conn = new mysqli("localhost", "root", "", "adminwcc");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
