@@ -631,6 +631,9 @@ input[type="submit"],
     grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
     gap: 1rem;
 }
+.card-grid.p {
+    text-align: left;
+}
 
 .requirements-grid {
     display: grid;
