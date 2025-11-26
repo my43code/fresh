@@ -1,6 +1,141 @@
+/* Back link */
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1.5rem 0 0 0;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.back-link i {
+    color: var(--primary-dark);
+    font-size: 1rem;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
 
 
-    /*history.css*/
+/* Profile Hero Section */
+.profile-hero {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    padding: 3rem 1.5rem;
+    background: var(--light);
+    border-radius: 1rem;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.08);
+    margin: 1.5rem 0;
+}
+
+.profile-hero img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
+    object-fit: cover;
+    justify-self: center;
+}
+
+.profile-hero .bio {
+    background: var(--light);
+    border-radius: 16px;
+    padding: 1.75rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.profile-hero .badge {
+    display: inline-block;
+    background: var(--secondary);
+    color: var(--text);
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+.profile-hero h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.profile-hero .role {
+    margin-top: 0.5rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+}
+
+
+/* Content Section */
+.profile-section {
+    margin-top: 2rem;
+}
+
+.profile-section .section-title {
+    margin-bottom: 1rem;
+}
+
+.profile-section p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+
+
+/* ✅ Mobile Responsive */
+@media (max-width: 768px) {
+
+    .back-link {
+        margin: 1rem 0;
+        font-size: 0.9rem;
+    }
+
+    .profile-hero {
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .profile-hero img {
+        max-width: 300px;
+    }
+
+    .profile-hero .bio {
+        padding: 1.25rem;
+        box-shadow: none;
+    }
+
+    .profile-hero h1 {
+        font-size: 1.6rem;
+    }
+
+    .profile-hero .role {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-hero {
+        gap: 1.5rem;
+    }
+
+    .profile-hero img {
+        max-width: 260px;
+    }
+}
+
+
+    /*history.css*
         :root {
             --primary: #b30000;
             --secondary: #f2a900;
@@ -22,7 +157,7 @@
             line-height: 1.6;
         }
 
-        /* HEADER + NAV */
+        /* HEADER + NAV *
         header {
             background: linear-gradient(135deg, var(--primary), #660000);
             color: var(--light);
@@ -74,7 +209,7 @@
             text-decoration: underline;
         }
 
-        /* MOBILE NAV */
+        /* MOBILE NAV *
         .nav-toggle {
             display: none;
             font-size: 1.5rem;
@@ -102,7 +237,7 @@
             }
         }
 
-        /* MAIN LAYOUT */
+        /* MAIN LAYOUT *
         main {
             max-width: 1100px;
             margin: 1.5rem auto 2rem;
@@ -125,7 +260,7 @@
             font-size: 0.95rem;
         }
 
-        /* INTRO SECTION */
+        /* INTRO SECTION *
         .intro-card {
             background: var(--light);
             padding: 1.5rem;
@@ -140,7 +275,7 @@
             color: var(--primary);
         }
 
-        /* TIMELINE */
+        /* TIMELINE *
         .timeline {
             background: var(--light);
             padding: 1.5rem;
@@ -183,7 +318,7 @@
             color: #444;
         }
 
-        /* IMAGE GALLERY */
+        /* IMAGE GALLERY *
         .gallery {
             background: var(--light);
             padding: 1.5rem;
@@ -240,7 +375,7 @@
             }
         }
 
-        /* VIDEO SECTION */
+        /* VIDEO SECTION *
         .video-section {
             background: var(--light);
             padding: 1.5rem;
@@ -257,7 +392,7 @@
 
         .video-wrapper {
             position: relative;
-            padding-bottom: 56.25%; /* 16:9 */
+            padding-bottom: 56.25%; /* 16:9 *
             height: 0;
             overflow: hidden;
             border-radius: 8px;
@@ -279,7 +414,7 @@
             color: #444;
         }
 
-        /* QUICK FACTS */
+        /* QUICK FACTS *
         .facts {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -307,11 +442,11 @@
             }
         }
 
-        /* FOOTER */
+        /* FOOTER *
         footer {
             text-align: center;
             padding: 1rem;
             font-size: 0.85rem;
             color: #777;
         }
-    
+    */
