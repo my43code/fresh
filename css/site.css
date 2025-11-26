@@ -953,8 +953,8 @@ input[type="submit"],
 }
 
 .profile-card img {
-    height: 430px;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
     width: 100%;
     
     
