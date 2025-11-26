@@ -1032,8 +1032,9 @@ input[type="submit"],
 }
 
 .profile-hero {
-    display:block;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));*/
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
     padding: 3rem 1.5rem;
