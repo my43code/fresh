@@ -951,9 +951,10 @@ input[type="submit"],
 }
 
 .profile-card img {
-    height: 200px;
+    height: 430px;
     object-fit: cover;
     width: 100%;
+    
 }
 
 .profile-card .profile-body {
