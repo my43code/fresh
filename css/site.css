@@ -948,10 +948,11 @@ input[type="submit"],
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+    overflow-x: hidden;
 }
 
 .profile-card img {
-    height: 430px;
+    height: 400px;
     object-fit: cover;
     width: 100%;
     
