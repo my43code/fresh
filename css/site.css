@@ -1045,7 +1045,10 @@ input[type="submit"],
     height: auto;
     border-radius: 16px;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
-    justify-self: center;
+    justify-self: contain;
+    object-fit: contain;
+    overflow: hidden;
+
 }
 
 .profile-hero .bio {
