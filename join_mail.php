@@ -7,6 +7,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
+
 $email = $_POST['newsletter-email'];
 
 $stmt = $conn->prepare("INSERT INTO mailing_list (email) VALUES (?)");
