@@ -952,7 +952,7 @@ input[type="submit"],
 }
 
 .profile-card img {
-    height: 250px;
+    height: 450px;
     object-fit: cover;
     width: 100%;
     
@@ -964,6 +964,7 @@ input[type="submit"],
     display: flex;
     flex-direction: column;
     gap: 0.35rem;
+
 }
 
 .profile-card h3 {
@@ -1034,6 +1035,7 @@ input[type="submit"],
     gap: 2rem;
     align-items: center;
     padding: 3rem 1.5rem;
+    overflow: auto;
 }
 
 .profile-hero img {
