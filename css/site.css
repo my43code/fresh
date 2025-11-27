@@ -1033,11 +1033,11 @@ input[type="submit"],
 }
 
 .profile-hero {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1rem;
     background: var(--light);
     border-radius: 1rem;
     box-shadow: 0 18px 34px rgba(0,0,0,0.1);
@@ -1051,12 +1051,13 @@ input[type="submit"],
 
 .profile-hero img {
     width: 100%;
-    max-width: 420px;
+    max-width: 120px;
     height: auto;
     border-radius: 16px;
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
     justify-self: center;
     overflow: scroll;
+    object-fit: contain;
 }
 
 .profile-hero .bio {
