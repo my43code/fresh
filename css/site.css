@@ -1855,7 +1855,7 @@ textarea {
     background-color: #d90429;   /* Bright red */
     color: #ffffff;
     padding: 12px 28px;
-    border-radius: 6px;
+    border-radius: 20%;
     font-size: 17px;
     font-weight: 600;
     text-decoration: none;
