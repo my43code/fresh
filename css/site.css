@@ -1852,7 +1852,7 @@ textarea {
 
 .red-news-btn {
     display: inline-block;
-    background-color: #d90429;   /* Bright red */
+    background-color: #b30000;;   /* Bright red */
     color: #ffffff;
     padding: 12px 28px;
     border-radius: 20%;
@@ -1865,7 +1865,7 @@ textarea {
 }
 
 .red-news-btn:hover {
-    background-color: #a50320;   /* Darker red on hover */
+    background-color: #b30000;;   /* Darker red on hover */
     box-shadow: 0 6px 14px rgba(0,0,0,0.3);
     transform: translateY(-2px);
 }
