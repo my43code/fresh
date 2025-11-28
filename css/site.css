@@ -1850,22 +1850,26 @@ textarea {
 }
 
 
-.floating-news-btn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #e63946;
-    color: white;
-    padding: 14px 20px;
-    border-radius: 50px;
-    font-weight: bold;
+.red-news-btn {
+    display: inline-block;
+    background-color: #d90429;   /* Bright red */
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 600;
     text-decoration: none;
-    font-size: 15px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-    z-index: 9999;
-    transition: 0.3s;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
-.floating-news-btn:hover {
-    background: #b92b39;
+.red-news-btn:hover {
+    background-color: #a50320;   /* Darker red on hover */
+    box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+    transform: translateY(-2px);
 }
+
+
+
+
